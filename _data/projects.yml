@@ -3,9 +3,8 @@
   image: viciouschain.png
   description: >
    An Android application to let you defeat your vices and become an asceticism master.
-   Its story is quite interesting from my point of view and it can't be explained completely here, but it
-   is enough for you knowing it has been my main technological focus for months. Now I'm looking for anyone
-   disposed to buy and maintain it. Anybody interested can have a look at its
+   Though it has been a major technological focus of mine for some time, I am giving it to anyone
+   willing to maintain it. Anybody interested can have a look at its
    <a href='http://www.fliptopia.com/listings/11970-vicious-chain-vice-control-application'>Fliptopia page</a>.
 
 - title: Foomett
@@ -20,8 +19,7 @@
   image: streamstation.png
   description: >
    An open-source Android download server, useful to find a job for an old device. With StreamStation
-   you can start, stop and manage HTTP downloads on your mobile phone remotely from another device, through a
-   comfortable web interface. Setting up a port forwarding on your router you can also manage your downloads outside
+   you can start, stop and manage HTTP downloads on your mobile phone remotely from another device through a web interface. Setting up a port forwarding on your router you can also manage your downloads outside
    your LAN.<br /> An user guide is also avaliable <a target='_blank'
    href='http://magratheadesign.co.nf/streamstation/manual/'>here</a>, while the source code is on
    <a target='_blank' href='https://github.com/caverndman/streamstation'>Github</a>.

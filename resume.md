@@ -1,16 +1,18 @@
 ---
 layout: page
-title: Resume
+title: Résumé
 permalink: /resume/
 ---
 
 ### Academic studies
 
 [Università degli studi di Bari](http://uniba.it), *Master’s degree* (Ongoing studies) 2017 - Present  
-*Nuclear, subnuclear and astroparticle physics* (in english)  
+*Nuclear, subnuclear and astroparticle physics*  
+*Language*: English  
 
 [Università degli studi di Bari](http://uniba.it), *Bachelor’s degree* 2014 - 2017  
-*Fisica* (in italian)  
+*Fisica*  
+*Language*: Italian  
 *Thesis title*: Hydrogen storage in clathrate hydrates: structures and interaction potentials  
 *Thesis supervisor*: Dr. Carla Maria Coppola  
 *Age at graduation*: 20  
@@ -18,7 +20,7 @@ permalink: /resume/
 *Final degree mark*: 110/110 cum laude  
 *Graduation date*: 19/07/2017  
 
-[Liceo Scientifico “Galileo Galilei”](http://lsgalileibitonto.it), Bitonto (BA)  
+[Liceo Scientifico “Galileo Galilei”](http://lsgalileibitonto.it)   
 *Scientific certificate*  
 *School-leaving examination mark*: 100/100 cum laude  
 
