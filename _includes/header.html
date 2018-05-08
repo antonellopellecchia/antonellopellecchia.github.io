@@ -3,6 +3,11 @@
 		<img src="{{ "/images/logo.png" | prepend: site.baseurl }}" />
 	</a></div>
 	<div id="site_title"><a href="/">{{ site.title | escape }}</a></div>
+	<div id="search">
+		<input type="text" placeholder="Search" id="search_input" />
+		<!--a href="#" id="search_submit"><i class="fa fa-search" aria-hidden="true"></i></a-->
+		<!--a href="#" id="search_reset">Reset</a-->
+	</div>
 	<ul id="navigation">
 		<li><a href="/"{% if page.title == nil %} class="active"{% endif %}>Posts</a></li>
 		{% for site_page in site.pages %}
@@ -11,9 +16,11 @@
 			{% endif %}
 		{% endfor %}
 	</ul>
+	<!--
 	<ul id="share">
 		<li><a href="https://github.com/{{ site.github_username }}/"><img src="{{ site.baseurl }}/images/share/github.png" /></a></li>
 		<li><a href="https://twitter.com/{{ site.twitter_username }}/"><img src="{{ site.baseurl }}/images/share/twitter.png" /></a></li>
 		<li><a href="https://plus.google.com/{{ site.google_username }}/"><img src="{{ site.baseurl }}/images/share/google.png" /></a></li>
 	</ul>
+	-->
 </div>

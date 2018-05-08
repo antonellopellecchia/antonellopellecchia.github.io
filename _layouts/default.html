@@ -5,6 +5,7 @@
 
 	<body>
 
+		{% include header.html %}
 		<ul id="palette">
 			<li title="#588C7E" style="background: #588C7E"></li>
 			<li title="#F2E394" style="background: #F2E394"></li>
@@ -13,15 +14,9 @@
 			<li title="#8C4646" style="background: #8C4646"></li>
 		</ul>
 		<div id="wrapper">
-			{% include header.html %}
 			<div class="isSocial" style="display:none">{{ site.social_buttons }}</div>
 			<div class="url" style="display:none">{{ site.url }}</div>
 			<div id="main">
-				<div id="search">
-					<input type="text" placeholder="Search..." id="search_input" />
-					<a href="#" id="search_submit"><i class="fa fa-search" aria-hidden="true"></i></a>
-					<!--a href="#" id="search_reset">Reset</a-->
-				</div>
 				<div id="content">
 					{{ content }}
 				</div>

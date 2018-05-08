@@ -9,19 +9,44 @@ body {
 	float: none;
 	position: static;
 	width: auto;
+	padding: .7em 1em;
+}
+
+#site_logo {
+	display: block;
+	float: none;
+	margin: .5em auto;
+}
+
+#site_logo img {
+	width: 3em;
 }
 
 #site_title {
+	display: block;
+	float: none;
 	font-size: auto;
+	margin: 0 auto;
 }
 
 #navigation {
-	margin-top: 1.5em;
+	float: none;
+	display: block;
+	margin: 0 auto;
 	width: auto;
+	line-height: 1.5em;
+}
+
+#navigation li {
+	display: inline;
+	padding: 0 .2em;
 }
 
 #search {
-	width: 90%;
+	display: block;
+	float: none;
+	margin: .5em auto;
+	width: auto;
 }
 
 #main {
@@ -29,6 +54,7 @@ body {
 	position: static;
 	width: 100%;
 	margin: 1.5em auto;
+	padding: 0;
 }
 
 .article_title {

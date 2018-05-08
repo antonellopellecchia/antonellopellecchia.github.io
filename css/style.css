@@ -4,7 +4,7 @@ body {
 	background-color: #fafafa;
 	background-image: url('../images/background.png');
 	color: #333;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Cantarell', sans-serif;
 }
 
 #wrapper {
@@ -39,58 +39,65 @@ a {
 }
 
 #site_header {
-	position: fixed;
-	padding-top: 4%;
+	position: relative;
+	padding: .7em calc(50% - 450px);
 	text-align: center;
 	box-sizing: border-box;
-	width: 35%;
-	margin: 0 2.5%;
+	width: 100%;
+	margin: 0;
 	float: left;
 	min-height: 100%;
 	overflow: hidden;
+	font-size: 1em;
+	font-family: 'Cantarell', sans-serif;
+	background-color: #24292e;
 }
 
 #site_logo {
-	margin-bottom: 1.5em;
+	float: left;
+	display: inline;
+	margin: 0 1em;
 }
 
 #site_logo img {
-	width: 55%;
+	width: 2em;
 }
 
 #site_title {
+	float: left;
+	display: inline;
 	margin: .25em 0em;
-	font-size: 2em;
+	font-size: 1.3em;
 	text-align: center;
 	font-weight: bold;
 }
 
+#site_title a {
+	color: white;
+}
+
 #navigation {
-	display: block;
-	width: 50%;
-	margin: 0 auto;
-	padding: 1.2em .5em;
+	float: right;
+	display: inline;
 	text-align: center;
+	line-height: 2em;
+}
+
+#navigation li {
+	display: inline;
+	padding: 0 .5em;
 }
 
 #navigation a {
-	margin: .1em 0em;
-	display: block;
-	border: 1px solid #eee;
-	background-color: #fff;
-	padding: .8em 0em;
 	list-style: none inside;
-	text-transform: uppercase;
 	font-size: .9em;
-
-	-webkit-box-shadow: 1px 1px 3px 0px rgba(235,235,235,1);
-	-moz-box-shadow: 1px 1px 3px 0px rgba(235,235,235,1);
-	box-shadow: 1px 1px 3px 0px rgba(235,235,235,1);
+	font-weight: bold;
+	color: rgba(255,255,255,0.75);
 }
 
 #navigation a:hover,
 #navigation a.active {
-	opacity: .7;
+	color: rgba(255,255,255,1);
 }
 
 #share {
@@ -111,12 +118,12 @@ a {
 }
 
 #main {
-	float: right;
-	font-size: 1.1em;
-	width: 55%;
-	margin: 0 2.5%;
+	float: none;
+	font-size: 1em;
+	width: 900px;
+	margin: 0 auto;
 	box-sizing: border-box;
-	font-family: 'Maven Pro', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -127,24 +134,23 @@ a {
 */
 
 #search {
-	margin: .7em auto 2em auto;
-	font-size: .9em;
-}
-
-#search > * {
-	line-height: 1.2em;
-	padding: .5em 1em;
-	background-color: #fff;
-	border: 1px solid #eee;
-	
-	-webkit-box-shadow: 5px 5px 2px 0px rgba(235,235,235,1);
-	-moz-box-shadow: 5px 5px 2px 0px rgba(235,235,235,1);
-	box-shadow: 5px 5px 2px 0px rgba(235,235,235,1);
-}
-
-#search input[type=text] {
 	display: inline;
-	width: calc(100% - 6em);
+	float: left;
+	margin: 0 1em;
+	line-height: 2.1em;
+}
+
+#search input {
+	border: none;
+	border-radius: 3px;
+	padding: .5em .7em .3em .7em;
+	color: rgba(255,255,255,0.75);
+	background-color: rgba(255,255,255,0.125);
+	font-size: .85em;
+}
+
+#search input:focus {
+	background-color: rgba(255,255,255,0.15);
 }
 
 #search a#search_submit {
