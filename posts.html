@@ -1,0 +1,18 @@
+---
+layout: default
+permalink: /posts
+---
+
+	{% for post in site.posts %}
+		{% include post_group.html %}
+	{% endfor %}
+
+	<!--div id="archive_pagination">
+		{% if paginator.previous_page %}
+			<a href="{{ paginator.previous_page_path }}" class="previous">&laquo; previous</a>
+		{% endif %}
+		<span class="page_number">page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+		{% if paginator.next_page %}
+			<a href="{{ paginator.next_page_path }}" class="next">next &raquo;</a>
+		{% endif %}
+	</div-->

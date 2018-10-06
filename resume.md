@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Résumé
+menu: show
 permalink: /resume/
 ---
 

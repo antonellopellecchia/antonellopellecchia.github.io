@@ -9,9 +9,9 @@
 		<!--a href="#" id="search_reset">Reset</a-->
 	</div>
 	<ul id="navigation">
-		<li><a href="/"{% if page.title == nil %} class="active"{% endif %}>Posts</a></li>
+		<!--li><a href="/"{% if page.title == nil %} class="active"{% endif %}>Posts</a></li-->
 		{% for site_page in site.pages %}
-			{% if site_page.title %}
+			{% if site_page.title and site_page.menu %}
 				<li><a href="{{ site_page.url | prepend: site.baseurl }}"{% if page.title == site_page.title %}class="active"{% endif %}>{{ site_page.title }}</a></li>
 			{% endif %}
 		{% endfor %}
